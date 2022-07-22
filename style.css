@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color:greenyellow;
+    background-image: url('https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  }
+  
+  
+  body {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: green;
+  }
+  
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 75%;
+    font-size: 2em;
+    margin-bottom: 45px;
+    border-bottom: 1px solid black;
+  }
+  
+  button {
+    align-items: right;
+    padding: 15px;
+    margin: 10px 10px;
+    font-size: 0.7em;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 85%;
+  }
+  
+  table {
+    width: 50%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    padding: 5px;
+    font-size: 1.6em;
+  }
+  
+  tr {
+    border-bottom: 1px solid black;
+  }
+  
+  td {
+    color:blue;
+    margin: 0 10px;
+  }
+  
+  .blank {
+    opacity: 0;
+  }
+  
+  .delete-button {
+    margin: 1px 15px;
+    position: relative;
+    top: 0;
+    right: 0;
+    color:red;
+    font-size: 1.5em;
+    border: 0px;
+    background-color: transparent;
+  }
+  
+  .delete-button:hover {
+    filter: brightness(150%);
+  }
+  
+  .book {
+    text-align: center;
+    font-size: 1.1em;
+    height: 60px;
+    border-bottom: 1px solid black;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 1.2em;
+    color: black;
+  }
+  
+  
+  
+ 
+  .modal-container {
+    height: 50%;
+    width: 350px;
+    position: fixed;
+    top: 25%;
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .modal-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    margin-top: 5px;
+  }
+  
+  
+  input {
+    padding: 1px 2px;
+  }
+  
+  label {
+    width: 20%;
+  }
+  
+  .modal-container input {
+    height: 7%;
+    width: 60%;
+    font-size: 1em;
+  }
+  
+  .submit-button {
+    font-size: 1.2em;
+    width: 30%;
+    margin: 10px 10px;
+  }
+  
+  .exit-modal {
+    margin: 1px 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:red;
+    font-size: 1.5em;
+    border: 0px;
+    background-color: transparent;
+  }
+  
+  .exit-modal:hover {
+    filter: brightness(150%);
+  }  
